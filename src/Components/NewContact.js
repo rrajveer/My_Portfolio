@@ -4,11 +4,11 @@ import styled from 'styled-components'
 
 export default function Contact() {
    
-    
+    const pathname= window.location.pathname;
     return (
    
         <ContactWrapper>
-        <h3 className=" text-center text-uppercase" style={{marginTop:"9rem"}}>contact</h3>
+        <h3 className=" text-center text-uppercase" style={ pathname==="/contact" ? {marginTop:"7rem"} : {marginTop:"9rem"}}>contact</h3>
        <hr style={{borderBottom:"1px solid #eee",width:"20%",width: "25%",margin:"auto"}}/> 
        <h6 className="text-center" style={{fontFamily:"Pacifico, cursive",fontSize:"1.2rem",letterSpacing:"0.1rem",opacity:"0.8"}}>Getting In Touch Is Easy!!!</h6>
           

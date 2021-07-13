@@ -4,22 +4,13 @@ import styled from 'styled-components'
 import Typical from 'react-typical'
 
 export default function About() {
+    const pathname= window.location.pathname;
     return (
 
     <div>
-         {/* <div className="title text-capitalize">
-                      <h1 className="mt-5">rajveer kour</h1>
-                      <h6 style={{ fontFamily:"Alegreya Sans SC, sans-serif",fontSize:"1.3rem",opacity:0.7,color:"#00AF9D",marginTop: "-14px",marginLeft: "21px"}}>
-                      <Typical 
-                       steps={['UI Designer',1000,'Web Developer',1000,'UX Designer',1000]}
-                       loop={Infinity}
-                       wrapper='p'
-                     />
-                      </h6>
-        </div> */}
-        
-    <AboutWrapper >
-        <div style={{marginTop:"29rem"}}>
+    
+     <AboutWrapper >
+        <div style={ pathname==="/about" ? {marginTop:"5rem"} : {marginTop:"29rem"} }>
         <h4 className = "text-center" id="#about"> ABOUT ME </h4> 
             <hr className = "mx-auto" />
         <div className = "container" >

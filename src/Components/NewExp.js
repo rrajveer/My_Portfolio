@@ -19,27 +19,28 @@ const NewExp = () => {
                                 <ul>
                                  <li>Develop and Maintain the company app according to the company’s value proposition and customer approach</li>
                                   <li>Partake in the development, operation, and deployment process  </li>
-                                  <li>Design and implement of front-end features and requirements </li>
-                                  <li>Participate in Research and Development implementation of new projects.</li>    
+                                  <li>Worked with React JS, ES6 to create a component-based interactive front-end user</li>
+                                  <li>Implemented Restful API's to communicate with the server</li>
+                                  <li>Created backup files using GIT</li>
                                </ul>
                             </li>
                             <li className="date" data-date=" 2017 - 2018">
                                 <h1>Social Ninja Inc. <span style={{fontSize: "1.1rem",opacity:""}}>(India)</span></h1>
                                 <ul>
-                                 <li>Work on the functional requirement suggested By Team Lead </li>
-                                  <li>Maintain and mange existing source code and Implement UI desig </li>
-                                  <li>Design and built signup and login pages </li>
-                                  <li>Fix software bugs via JavaScript and CSS </li>    
-                               </ul>
+                                  <li>Maintain and mange existing source code and Implement UI design </li>
+                                  <li>Design and implement of front-end features and requirements </li>
+                                  <li>Reach out to clients to resolve out of scope issues like implementation or customization </li>
+                                  <li>Participate in Research and Development implementation of new projects.</li>    
+                             </ul>
                                 <p></p>
                             </li>
-                            <li className="date" data-date=" 2020 - Present">
-                                <h1>BizBiz Share <span style={{fontSize: "1.1rem",opacity:""}}>(India)</span></h1>
+                            <li className="date" data-date=" 2016 - 2017">
+                                <h1>Geek Wink Inc. <span style={{fontSize: "1.1rem",opacity:""}}>(India)</span></h1>
                                 <ul>
-                                 <li>Implement UI design</li>
+                                  <li>Work on the functional requirement suggested By Team Lead</li>  
+                                  <li>Implement UI design</li>
                                   <li>Design and built signup and login pages </li>
                                   <li>Fix software bugs via JavaScript and CSS</li>
-                                  <li>Work on the functional requirement suggested By Team Lead</li>    
                                </ul>
                             </li>
                         </ul>

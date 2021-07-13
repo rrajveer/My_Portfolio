@@ -6,10 +6,11 @@ import styled from 'styled-components'
 import ImgGallery from './ImgGallery'
 
  const Projects=() => {
+    const pathname= window.location.pathname;
     return (
         <div>
         <ProjectWrapper>
-            <h4 className="text-center text-uppercase mt-5">projects</h4>
+            <h4 className="text-center text-uppercase" style={ pathname==="/projects" ? {marginTop:"6rem"} : {marginTop:"6rem"}}>projects</h4>
             <hr style={{borderBottom:"1px solid #eee",width:"25%",margin:"auto"}}/> 
             <h6 className="text-center text-capitalize mt-3" style={{fontFamily:"Pacifico, cursive",fontSize:"1.2rem",letterSpacing:"0.1rem",opacity:"0.8"}}>view some of my recent work</h6>
             <a className="mx-auto gitBtn1"  data-aos="fade-in" data-aos-delay="300" href="https://github.com/rrajveer" style={{width:"15%"}}>
@@ -77,9 +78,9 @@ import ImgGallery from './ImgGallery'
 }
 export default Projects
 const ProjectWrapper = styled.div`
-h4{
-    margin-top:9rem !important;
-}
+// h4{
+//     margin-top:9rem !important;
+// }
 
 h3,p{
     color:white;
