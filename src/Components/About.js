@@ -20,7 +20,7 @@ export default function About() {
            </div> 
         
          <div className = " col-lg-7 col-sm-12"data-aos = "fade-left"data-aos-delay = "600" >
-            <p ><strong > "</strong>I am currently working as a Front-End Developer at BizBiz Share Inc.
+            <p ><strong > "</strong>I am currently working as a back-End Developer at BizBiz Share Inc.
              Montreal, with proven acumen in Web Programming and Technologies.<strong>"</strong>
               </p > 
               <br />
